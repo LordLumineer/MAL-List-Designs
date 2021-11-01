@@ -1,41 +1,5 @@
 /*-S-T-A-R-T--------------------*\
-| Dark Mode R3.4                 |
+| Hover Image R0.3               |
 \*------------------------------*/
-
-:root{
-    --banner:url(https://i.imgur.com/WaLokPG.jpg);
-    --character:url(https://i.imgur.com/h8HW1jf.png);
-    --pbg:#161616;
-    --bg:#212121;
-    --bg-dark:#444;
-    --text:#ababab;
-    --text-h:#416abe;
-    --text-dim:#777;
-    --text-dim-h:#999;
-    --text-dark:#ababab;
-    --shadow:rgba(0,0,0,0.8);
-    --icon:#959595;
-    --accent:#416abe;
-    --banner-text:#f6f5ff;
-    --banner-text-shadow:#e4bef4;
-    --btn-bg:#191919;
-    --btn-bg-h:#ababab;
-    --btn-head-bg-h:#416abe;
-    --btn-text-h:#212121;
-    --text-head:#9b9b9b;
-    --text-head-h:#ababab;
-    --cover-bg:#090909;
-    --edit-btn:#323232;
-    --checkmark:#416abe
-}
-
-
-.cover-block:before{background:linear-gradient(to top,rgba(0,0,0,.8),rgba(0,0,0,0))}
-.status-menu-container:after{background:linear-gradient(to bottom,rgba(0,0,0,.6),rgba(0,0,0,0))}
-#footer-block:before{background:linear-gradient(to top,rgba(0,0,0,.3),rgba(0,0,0,0))}
-.data.score select{background-image:url(https://i.imgur.com/hFijppc.png)}
-#fancybox-overlay{opacity:.35!important}
-#advanced-options,#fancybox-outer{box-shadow:0 0 32px rgba(0,0,0,.75)}
-#fancybox-frame{-webkit-filter:invert(87.8%) hue-rotate(197deg);filter:invert(87.8%) hue-rotate(197deg)}
-#advanced-options [class*="-widget"] select{background-image:url(https://i.imgur.com/KF8oOyC.png)}
+.data.image a{overflow:visible}.data.image a:before{content:"";position:absolute;top:50%;left:-166px;z-index:50;width:150px;height:0;background:var(--bg-dark) no-repeat center/cover;border-radius:8px;box-shadow:0 0 2px #000;opacity:0;pointer-events:none;transition:all .3s ease}.list-item:hover .data.image a:before{top:calc(50% - 100px);height:200px;opacity:1}.data.image a:after,.data.image img{border-radius:50%}
 /*------------------------E-N-D-*/
