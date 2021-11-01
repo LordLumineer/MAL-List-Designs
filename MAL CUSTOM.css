@@ -49,7 +49,7 @@ the new background to Imgur or a similar site, then copy the direct link (or Ori
 /* Watching/Reading */
 [data-query*='status":1'] { --banner: url(https://i.imgur.com/sKK1KAT.jpg);}
 /* Completed */
-[data-query*='status":2'] { --banner: url(); }
+[data-query*='status":2'] { --banner: url(https://i.imgur.com/FkSiI6v.jpg); }
 /* Onhold */
 [data-query*='status":3'] { --banner: url(); }
 /* Dropped */
@@ -122,7 +122,7 @@ body[data-query*='status":7']  { --avatar: url(https://i.imgur.com/Ot3iXX5.jpg);
 
 body[data-query*='status":1']  { --avatar: url(https://i.imgur.com/8Bdl7MD.jpg); }
 
-body[data-query*='status":2']  { --avatar: url(); }
+body[data-query*='status":2']  { --avatar: url(https://i.imgur.com/UnAQciW.jpg); }
 
 body[data-query*='status":3']  { --avatar: url(); }
 
@@ -145,7 +145,7 @@ body[data-query*='status":7'] { --background: url(https://i.imgur.com/cb4aMiH.pn
 /* Watching/Reading */
 body[data-query*='status":1'] { --background: url(https://i.imgur.com/DWXZn0U.jpg); }
 /* Completed */
-body[data-query*='status":2'] { --background: url(); }
+body[data-query*='status":2'] { --background: url(https://i.imgur.com/ZtVORyH.jpg); }
 /* Onhold */
 body[data-query*='status":3'] { --background: url(); }
 /* Dropped */
