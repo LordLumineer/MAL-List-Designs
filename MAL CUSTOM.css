@@ -17,22 +17,22 @@
 \*------------------------------*/
 
 /* All Anime / Made in Abyss */
-body[data-query*='status":7'] { --name: ""; 
+body[data-query*='status":7'] { --name: "Lord Lumineer' s Anime List"; 
 }
 /* Watching/Reading / Castle in the Sky */
-body[data-query*='status":1'] { --name: ""; 
+body[data-query*='status":1'] { --name: "Lord Lumineer' s Anime List"; 
 }
 /* Completed / Kimetsu no Yaiba */
-body[data-query*='status":2']  { --name: ""; 
+body[data-query*='status":2']  { --name: "Lord Lumineer' s Anime List"; 
 }
 /* Onhold / Re:Zero */
-body[data-query*='status":3'] { --name: "";
+body[data-query*='status":3'] { --name: "Lord Lumineer' s Anime List";
 }
 /* Dropped / Mononoke Hime */
-body[data-query*='status":4'] { --name: "";
+body[data-query*='status":4'] { --name: "Lord Lumineer' s Anime List";
 }
 /* Planned / No Game No Life */
-body[data-query*='status":6'] { --name: "";
+body[data-query*='status":6'] { --name: "Lord Lumineer' s Anime List";
 }
 
 
