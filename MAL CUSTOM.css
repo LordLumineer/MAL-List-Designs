@@ -47,7 +47,7 @@ the new background to Imgur or a similar site, then copy the direct link (or Ori
 /* All Anime */
 [data-query*='status":7'] { --banner: url(https://i.imgur.com/XJA4j0p.jpg); }
 /* Watching/Reading */
-[data-query*='status":1'] { --banner: url();}
+[data-query*='status":1'] { --banner: url(https://i.imgur.com/sKK1KAT.jpg);}
 /* Completed */
 [data-query*='status":2'] { --banner: url(); }
 /* Onhold */
@@ -143,7 +143,7 @@ If you want a wallpaper on a category, you can add direct background images link
 /* All Anime */
 body[data-query*='status":7'] { --background: url(https://i.imgur.com/cb4aMiH.png); }
 /* Watching/Reading */
-body[data-query*='status":1'] { --background: url(); }
+body[data-query*='status":1'] { --background: url(https://i.imgur.com/DWXZn0U.jpg); }
 /* Completed */
 body[data-query*='status":2'] { --background: url(); }
 /* Onhold */
