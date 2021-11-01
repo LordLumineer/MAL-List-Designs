@@ -45,7 +45,7 @@ the new background to Imgur or a similar site, then copy the direct link (or Ori
 \*------------------------------*/
 
 /* All Anime */
-[data-query*='status":7'] { --banner: url(https://i.imgur.com/4CYzNIG.jpg); }
+[data-query*='status":7'] { --banner: url(https://i.imgur.com/XJA4j0p.jpg); }
 /* Watching/Reading */
 [data-query*='status":1'] { --banner: url();}
 /* Completed */
@@ -118,7 +118,7 @@ The first percentage after background position is the position from the left. Lo
 | Banner Avatar    |
 \*------------------------------*/
 
-body[data-query*='status":7']  { --avatar: url(https://i.imgur.com/vGccEJa.jpg); }
+body[data-query*='status":7']  { --avatar: url(https://i.imgur.com/Ot3iXX5.jpg); }
 
 body[data-query*='status":1']  { --avatar: url(); }
 
@@ -141,7 +141,7 @@ If you want a wallpaper on a category, you can add direct background images link
 \*------------------------------*/
 
 /* All Anime */
-body[data-query*='status":7'] { --background: url(https://i.imgur.com/EPwO4.png); }
+body[data-query*='status":7'] { --background: url(https://i.imgur.com/cb4aMiH.png); }
 /* Watching/Reading */
 body[data-query*='status":1'] { --background: url(); }
 /* Completed */
