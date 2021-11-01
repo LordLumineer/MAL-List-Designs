@@ -1,2 +1,2 @@
 MAL-List-Designs  
-@\import "https://github.com/LordLumineer/MAL-List-Designs/blob/master/MAL%20CUSTOM.css";
+@\import "https://lordlumineer.github.io/MAL-List-Designs/MAL%20CUSTOM.css";
