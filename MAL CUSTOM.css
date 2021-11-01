@@ -51,9 +51,9 @@ the new background to Imgur or a similar site, then copy the direct link (or Ori
 /* Completed */
 [data-query*='status":2'] { --banner: url(https://i.imgur.com/FkSiI6v.jpg); }
 /* Onhold */
-[data-query*='status":3'] { --banner: url(); }
+[data-query*='status":3'] { --banner: url(https://i.imgur.com/gxec554.jpg); }
 /* Dropped */
-[data-query*='status":4'] { --banner: url(); }
+[data-query*='status":4'] { --banner: url(https://i.imgur.com/hfOqtzh.jpg); }
 /* Planned */
 [data-query*='status":6'] { --banner: url(https://i.imgur.com/uTfF02Z.jpg); 
 }
@@ -124,9 +124,9 @@ body[data-query*='status":1']  { --avatar: url(https://i.imgur.com/8Bdl7MD.jpg);
 
 body[data-query*='status":2']  { --avatar: url(https://i.imgur.com/UnAQciW.jpg); }
 
-body[data-query*='status":3']  { --avatar: url(); }
+body[data-query*='status":3']  { --avatar: url(https://i.imgur.com/SWDcECO.jpg); }
 
-body[data-query*='status":4']  { --avatar: url(); }
+body[data-query*='status":4']  { --avatar: url(https://i.imgur.com/3fW1XGn.jpg); }
 
 body[data-query*='status":6']  { --avatar: url(https://i.imgur.com/TWXs209.png); 
 }
@@ -147,9 +147,9 @@ body[data-query*='status":1'] { --background: url(https://i.imgur.com/DWXZn0U.jp
 /* Completed */
 body[data-query*='status":2'] { --background: url(https://i.imgur.com/ZtVORyH.jpg); }
 /* Onhold */
-body[data-query*='status":3'] { --background: url(); }
+body[data-query*='status":3'] { --background: url(https://i.imgur.com/bKqUycX.jpg); }
 /* Dropped */
-body[data-query*='status":4'] { --background: url(); }
+body[data-query*='status":4'] { --background: url(https://i.imgur.com/luBLmLH.jpg); }
 /* Planned */
 body[data-query*='status":6'] { --background: url(https://i.imgur.com/B3ST2oX.png); 
 }
@@ -215,18 +215,18 @@ background-position: right bottom !important;
 /*ON HOLD RENDERS*/
 [data-query*='"status":3'] footer:before {
 left: -4%;
-top: 0%;
-width: 25% !important;
+top: 35%;
+width: 50% !important;
 background-size: contain !important;
-background-image: url();
+background-image: url(https://i.imgur.com/N1rBFCi.jpg);
 background-position: left bottom !important;
 }
 [data-query*='"status":3'] footer:after {
 right: -4%;
-top: 0%;
-width: 25% !important;
+top: 35%;
+width: 50% !important;
 background-size: contain !important;;
-background-image: url();
+background-image: url(https://i.imgur.com/TPiqOly.jpg);
 background-position: right bottom !important;
 }
 /*DROPPED RENDERS*/
