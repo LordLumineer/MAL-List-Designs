@@ -120,7 +120,7 @@ The first percentage after background position is the position from the left. Lo
 
 body[data-query*='status":7']  { --avatar: url(https://i.imgur.com/Ot3iXX5.jpg); }
 
-body[data-query*='status":1']  { --avatar: url(); }
+body[data-query*='status":1']  { --avatar: url(https://i.imgur.com/8Bdl7MD.jpg); }
 
 body[data-query*='status":2']  { --avatar: url(); }
 
